@@ -1,4 +1,5 @@
-require('dotenv').config();
+//require es para importar librerias o archivos 
+require('dotenv').config(); //para cargar las variables de entorno desde .env
 const { Sequelize } = require('sequelize');
  
 console.log('--- PRUEBA DE VARIABLES ---');
